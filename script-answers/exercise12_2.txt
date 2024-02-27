@@ -1,0 +1,18 @@
+Script started on 2024-02-26 11:31:54+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;anton@DESKTOP-1FOV460: ~/repos/part12/script-answers[01;32manton@DESKTOP-1FOV460[00m:[01;34m~/repos/part12/script-answers[00m$ docker run -it ubuntu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K01007420e9b0: Pulling fs layer [1B[1A[2K01007420e9b0: Downloading [>                                                  ]  298.2kB/29.54MB[1B[1A[2K01007420e9b0: Downloading [=======>                                           ]  4.315MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [============>                                      ]  7.416MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [===================>                               ]  11.44MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [==========================>                        ]  15.76MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [================================>                  ]  19.47MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [========================================>          ]   23.8MB/29.54MB[1B[1A[2K01007420e9b0: Downloading [================================================>  ]  28.72MB/29.54MB[1B[1A[2K01007420e9b0: Verifying Checksum [1B[1A[2K01007420e9b0: Download complete [1B[1A[2K01007420e9b0: Extracting [>                                                  ]  327.7kB/29.54MB[1B[1A[2K01007420e9b0: Extracting [========>                                          ]  4.915MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [=============>                                     ]  8.192MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [==================>                                ]  10.81MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [=============================>                     ]  17.69MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [========================================>          ]  23.92MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [===========================================>       ]  25.89MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [===============================================>   ]  28.18MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [=================================================> ]  29.16MB/29.54MB[1B[1A[2K01007420e9b0: Extracting [==================================================>]  29.54MB/29.54MB[1B[1A[2K01007420e9b0: Pull complete [1BDigest: sha256:f9d633ff6640178c2d0525017174a688e2c1aef28f0a0130b26bd5554491f0da
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@693130562fa0: /root@693130562fa0:/# mkdri     dir usr/sr      /s usr/src/app
+[?2004l[?2004h]0;root@693130562fa0: /root@693130562fa0:/# cd /usr/src/app
+[?2004l[?2004h]0;root@693130562fa0: /usr/src/approot@693130562fa0:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@693130562fa0: /usr/src/approot@693130562fa0:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@693130562fa0: /usr/src/approot@693130562fa0:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;anton@DESKTOP-1FOV460: ~/repos/part12/script-answers[01;32manton@DESKTOP-1FOV460[00m:[01;34m~/repos/part12/script-answers[00m$ ei[Kxit
+[?2004lexit
+
+Script done on 2024-02-26 11:33:27+01:00 [COMMAND_EXIT_CODE="0"]
