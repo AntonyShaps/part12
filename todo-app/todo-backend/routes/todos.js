@@ -58,16 +58,13 @@ singleRouter.get('/', async (req, res) => {
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
   const { text, done } = req.body;
-  
-  if (text !== undefined) req.todo.text = text;
-  if (done !== undefined) req.todo.done = done;
+  const foundTodo = req.todo;
 
-  try {
-    const updatedTodo = await req.todo.save();
-    res.send(updatedTodo);
-  } catch (error) {
-    res.status(400).send("Error updating todo");
-  }
+	foundTodo.text = text || foundTodo.text;
+	foundTodo.done = done || foundTodo.done;
+
+	await foundTodo.save();
+  res.send(foundTodo);
 });
 
 router.use('/:id', findByIdMiddleware, singleRouter)
